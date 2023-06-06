@@ -1,0 +1,88 @@
+@charset "UTF-8";
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+    font-family:'play';
+    src: url('fonts/zrnic\ rg.otf')
+    format(opentype);
+    font-weight: normal;
+    font-style: normal;
+
+}
+:root{
+    --cor01:#00439C;
+    --cor02:#C2CEE7;
+
+}
+html, body{
+    min-height: 100vh;
+    background-color: var(--cor01);
+    color: white;
+}
+header{
+    font-family: 'play', sans-serif;
+    font-size: 0.9cm;
+    color: black;
+    line-height: 2cm;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+}
+header>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7cm;
+}
+footer{
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+section.img{
+    background-color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.529);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+    
+    
+}
+section.normal{
+    padding-top: 40vh;
+    padding-bottom:40vh ;
+}
+section{
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+section.img >p{
+    background-color: rgba(0, 0, 0, 0.485);
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    font-size: 0.8cm;
+    text-shadow: 1px 1px 1px black;
+}
+section#i1{
+    background-image: url(img/console.jpeg);
+    
+    
+    
+    
+    
+}
+
+section#i2{
+    background-image: url(img/DualSense-Edge-image-block-01-en-24aug22.jpeg);
+    
+    
+}
